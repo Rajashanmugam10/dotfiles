@@ -12,6 +12,8 @@ exec /usr/bin/wireplumber &
 # Logo key. Use Mod1 for Alt.
 set $mod Mod1
 # Home row direction keys, like vim
+default_border none
+bindsym $mod+p swaylock
 set $left h
 set $down j
 set $up k
@@ -24,7 +26,7 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/r1/Downloads/bat.jpg fill
+output * bg /home/byte/Downloads/bat.png fill
 #
 # Example configuration:
 #
