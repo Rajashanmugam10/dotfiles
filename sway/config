@@ -26,7 +26,7 @@ set $menu wmenu-run
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg /home/r/Downloads/illustration-anime-city.jpg fill
+output * bg /home/r/.config/dotfiles/steve.jpg fill
 bindsym $mod+z exec swaylock -i /home/r/Downloads/anime-character-traveling.jpg
 
 #
